@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modern Art</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <section class="headerPages">
+            <nav>
+                <a href="index.html"><img src="pngegg.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html#home">HOME</a></li>
+                        <li><a href="index.html#section-content">INFO</a></li>
+                        <li><a href="index.html#paintings">ART</a></li>
+                        <li><a href="index.html#about">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <div id="home"></div>
+                <h1>Modern Art</h1>
+            </div>
+
+        </section>
+<!--InfoStore-->
+            <section id="storeInfo">
+                <h2 class="paintingname">Flower Thrower</h2>
+                <h3>Bansky</h3>
+                <div class="row">
+                    <div class="storeInfo-col">
+                        <img src="banksy.jpg">
+                        <div class="layer">
+                            <a href="index.html#about"><h3>Buy now</h3></a>
+                        </div>
+                        <p>€625</p>
+                    </div>
+                    <div class="storeInfo-col">
+                        <p class="description">"Discover the powerful message and striking imagery of Banksy's iconic "Flower Thrower." This renowned piece of street art transforms the act of protest into a symbol of peace and hope. The painting depicts a masked figure, poised in the act of throwing a bouquet of vibrant flowers instead of a weapon, juxtaposing aggression with beauty and non-violence. The stark black and white figure against the colorful explosion of flowers creates a compelling contrast that captures the viewer's attention and stirs deep contemplation.
+
+                            "Flower Thrower" is more than just a piece of art; it's a statement on the power of love and peace in the face of conflict. Perfect for modern and contemporary spaces, this piece will not only elevate your décor but also serve as a conversation starter and a daily reminder of the impact of peaceful resistance. Bring home this thought-provoking masterpiece and let Banksy's revolutionary spirit inspire and captivate within your own walls."</p>
+                    </div>
+                </div>
+           
+            </section>
+<!--Reviews-->
+        <section class="reviews">
+            <div id="section-content">
+            <h2>Reviews from our customers</h2>
+                <div class="row">
+                    <div class="reviews-col-img">
+                        <p>"I really love how it is sitting in my living room!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img  class="img1" src="jennifer.jpg">
+                        <h3>Jennifer</h3>
+                    </div>
+                    <div class="reviews-col-img">
+                        <p>"Not really what I expected, but still very nice!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img  class="img1" src="erik.jpg">
+                        <h3>Erik</h3>
+                    </div>
+                    <div class="reviews-col-img">
+                        <p>"Really love this store and the art it provides!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img  class="img1" src="betty.jpg">
+                        <h3>Betty</h3>
+                    </div>
+                </div>
+            
+            
+            </section>
+<!--About-->
+<!--Give Review-->
+        <section  class="feedback">  
+            <h2 class="feedback-h2">You can leave a review here:</h2>
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+        </section>
+<!--Footer-->
+            <section class="footer">
+                <div class="icons">
+                    <a href="https://www.facebook.com/SourBlast16/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mbpapazova/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/mbpapazova" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/maria-papazova/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p class="end">Made with <i class="fa fa-heart-o"></i> by MP</p>
+            </section>
+
+<!--JavaScript-->
+        <script src="main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Art Store</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="pngegg.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#storeInfo">INFO</a></li>
+                        <li><a href="#section-content">SHOP</a></li>
+                        <li><a href="#about">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <div id="home"></div>
+                <h1>Welcome to Jinx <br> Online Art Store</h1>
+                <p>Hello, if you are here, you are probably curious to browse through some beautiful paintings. <br>You've come to the right place!<br> Click the button below to start you adventure.</p>
+                <a href="#section-content" class="hero-btn">Shop Now</a>
+            </div>
+        </section>
+        
+<!--InfoStore-->
+            <section id="storeInfo">
+                <h1>Explore as an Artist or as a Buyer</h1>
+                <p>If you're an artist and you are interested in selling your art here at our store, click the photo on the left!</p>
+                <p>If you're a buyer or just to scroll through some beautiful art, click the photo on the right!</p>
+                <div class="row">
+                    <div class="storeInfo-col">
+                        <img src="artist.jpg">
+                        <div class="layer">
+                            <a href="#about"><h3>Artist</h3></a>
+                        </div>
+                    </div>
+                    <div class="storeInfo-col">
+                        <img src="art.jpg">
+                        <div class="layer">
+                            <a href="#section-content"><h3>Buyer</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!--Paintings-->
+        <section class="paintings">
+            <div id="section-content">
+            <h1>Jinx</h1>
+            <h2>Choose your art through this section</h2>
+                <div class="row">
+                    <div class="paintings-col-img">
+                        <h3>Black and White</h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <a href="BandW.html" class="view-btn"  target="_blank"><img  class="img1" src="bAndW.jpg"></a>
+                        <p>€250</p>
+                    </div>
+                    <div class="paintings-col-img">
+                        <h3>Colorful</h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <a href="Colorful.html" class="view-btn"  target="_blank"><img  class="img1" src="rainbowlove.jpg"></a>
+                        <p>€145</p>
+                    </div>
+                    <div class="paintings-col-img">
+                        <h3>Sculpture</h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <a href="Sculpture.html" class="view-btn"  target="_blank"><img  class="img1" src="Sculpture.jpg"></a>
+                        <p>€1000</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="paintings-col-img">
+                        <h3>Modern</h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <a href="Modern.html" class="view-btn"  target="_blank"><img  class="img1" src="banksy.jpg"></a>
+                        <p>€625</p>
+                    </div>
+                    <div class="paintings-col-img">
+                        <h3>Digital</h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <a href="Digital.html" class="view-btn"  target="_blank"><img  class="img1" src="digital.jpg"></a>
+                        <p>€50</p>
+                    </div>
+                </div>
+            </section>
+
+<!--About-->
+            <section id="about">
+                <h1>Find us on facebook,<br> instagram or linkedin. Click the icons below.</h1>
+            </section>
+
+<!--Footer-->
+            <section class="footer">
+                <div class="icons">
+                    <a href="https://www.facebook.com/SourBlast16/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mbpapazova/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/maria-papazova/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/mbpapazova" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+                <p class="end">Made with <i class="fa fa-heart-o"></i> by MP</p>
+            </section>
+
+<!--JavaScript-->
+        <script src="main.js"></script>
+
+    </body>
+</html>

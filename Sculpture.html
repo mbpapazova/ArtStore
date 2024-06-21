@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sculpture</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <section class="headerPages">
+            <nav>
+                <a href="index.html"><img src="pngegg.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html#home">HOME</a></li>
+                        <li><a href="index.html#section-content">INFO</a></li>
+                        <li><a href="index.html#paintings">ART</a></li>
+                        <li><a href="index.html#about">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <div id="home"></div>
+                <h1>Sculpture</h1>
+            </div>
+
+        </section>
+<!--InfoStore-->
+            <section id="storeInfo">
+                <h2 class="paintingname">Regal Majesty: Queen Elizabeth I</h2>
+                <h3>Artist: Alexander Hawthorne</h3>
+                <div class="row">
+                    <div class="storeInfo-col">
+                        <img src="Sculpture.jpg">
+                        <div class="layer">
+                            <a href="index.html#about"><h3>Buy now</h3></a>
+                        </div>
+                        <p>€1000</p>
+                    </div>
+                    <div class="storeInfo-col">
+                        <p class="description">"Experience the grandeur and elegance of a bygone era with "Regal Majesty: Queen Elizabeth I," a masterful sculpture by renowned artist Alexander Hawthorne. This exquisite piece captures the iconic presence and dignified poise of one of history's most influential monarchs. Crafted with meticulous attention to detail, the sculpture features Queen Elizabeth I adorned in her opulent royal attire, complete with intricate lace, pearls, and the unmistakable ruff that defined her reign.
+
+                            The lifelike portrayal brings to life the queen's commanding gaze and regal bearing, making it a stunning centerpiece for any art collection. Whether displayed in a home, office, or gallery, "Regal Majesty: Queen Elizabeth I" serves as a timeless tribute to the legacy of a queen who shaped the course of history. Alexander Hawthorne's artistry ensures that this sculpture not only celebrates the past but also adds a touch of elegance and historical significance to your space."</p>
+                    </div>
+                </div>
+           
+            </section>
+<!--Reviews-->
+        <section class="reviews">
+            <div id="section-content">
+            <h2>Reviews from our customers</h2>
+                <div class="row">
+                    <div class="reviews-col-img">
+                        <p>"I really love how it is sitting in my living room!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img  class="img1" src="jennifer.jpg">
+                        <h3>Jennifer</h3>
+                    </div>
+                    <div class="reviews-col-img">
+                        <p>"Not really what I expected, but still very nice!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img  class="img1" src="erik.jpg">
+                        <h3>Erik</h3>
+                    </div>
+                    <div class="reviews-col-img">
+                        <p>"Really love this store and the art it provides!"</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img  class="img1" src="betty.jpg">
+                        <h3>Betty</h3>
+                    </div>
+                </div>
+            
+            
+            </section>
+<!--Give Review-->
+        <section  class="feedback">  
+            <h2 class="feedback-h2">You can leave a review here:</h2>
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+        </section>
+<!--Footer-->
+            <section class="footer">
+                <div class="icons">
+                    <a href="https://www.facebook.com/SourBlast16/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mbpapazova/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/mbpapazova" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/maria-papazova/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p class="end">Made with <i class="fa fa-heart-o"></i> by MP</p>
+            </section>
+
+<!--JavaScript-->
+        <script src="main.js"></script>
+
+    </body>
+</html>
